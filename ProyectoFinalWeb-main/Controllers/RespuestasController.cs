@@ -65,7 +65,7 @@ namespace ProyectoWebFinal.Controllers
                 ? "✅ Encuesta eliminada correctamente"
                 : "❌ Error al eliminar la encuesta";
 
-            return RedirectToAction("RespuestasEliminar");
+            return RedirectToAction("RespuestasEditar");
         }
 
         // ==========================================

@@ -49,7 +49,7 @@ builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // tiempo de expiración
+    options.IdleTimeout = TimeSpan.FromMinutes(5); // tiempo de expiración
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -58,7 +58,7 @@ builder.Services.AddAuthentication("Cookies")
     .AddCookie("Cookies", options =>
     {
         options.LoginPath = "/Usuario/Login";
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
         options.SlidingExpiration = true; // extiende el tiempo si hay actividad
     });
 

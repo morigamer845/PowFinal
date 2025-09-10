@@ -1,5 +1,21 @@
-﻿@{
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+@{
     ViewData["Title"] = "Página de Inicio";
+    // Primero intento obtener usuario y rol de Session
+    var nombreUsuario = HttpContextAccessor.HttpContext?.Session?.GetString("usuario");
+    var idrol = HttpContextAccessor.HttpContext?.Session?.GetInt32("rol");
+
+    // Si Session está vacía, uso la cookie de autenticación
+    if (string.IsNullOrEmpty(nombreUsuario) && HttpContextAccessor.HttpContext?.User?.Identity?.IsAuthenticated == true)
+    {
+        nombreUsuario = HttpContextAccessor.HttpContext.User.Identity.Name;
+        idrol = int.Parse(HttpContextAccessor.HttpContext.User.Claims.First(c => c.Type == System.Security.Claims.ClaimTypes.Role).Value);
+
+        // Restaurar Session desde la cookie
+        HttpContextAccessor.HttpContext.Session.SetString("usuario", nombreUsuario);
+        HttpContextAccessor.HttpContext.Session.SetInt32("rol", idrol.Value);
+    }
 }
 
 <!-- Fondo completo con difuminado -->
@@ -12,16 +28,21 @@
         <h1>Bienvenido a la Aplicación de Encuestas</h1>
         <p class="lead">Participa, opina y haz que tu voz cuente</p>
     </header>
-
-    <section class="buttons mt-4">
-        <a class="btn glass-button btn-success mx-2" href="/Usuario/Login">
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <section class="buttons mt-4">
+            <a class="btn glass-button btn-success mx-2" href="/Usuario/Login">
             <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
         </a>
         <a class="btn glass-button btn-primary mx-2" href="/Usuario/Registrar">
             <i class="bi bi-person-plus"></i> Registrarse
         </a>
-    </section>
-
+        </section>
+    }
+    else
+    {
+        <button style="display: none;"></button>
+    }
     <footer class="footer mt-5">
         <small>© 2024 Aplicación de Encuestas — Todos los derechos reservados</small>
     </footer>

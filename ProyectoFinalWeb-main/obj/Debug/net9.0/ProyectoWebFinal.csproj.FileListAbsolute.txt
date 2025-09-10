@@ -1362,3 +1362,4 @@ C:\Users\PC\Documents\trabajo_estudio_Moriel\4to_anio\segundoSemetre\POW2_FP\PF\
 C:\Users\PC\Documents\trabajo_estudio_Moriel\4to_anio\segundoSemetre\POW2_FP\PF\ProyectoFinalWeb-main\obj\Debug\net9.0\ProyectoWebFinal.pdb
 C:\Users\PC\Documents\trabajo_estudio_Moriel\4to_anio\segundoSemetre\POW2_FP\PF\ProyectoFinalWeb-main\obj\Debug\net9.0\ProyectoWebFinal.genruntimeconfig.cache
 C:\Users\PC\Documents\trabajo_estudio_Moriel\4to_anio\segundoSemetre\POW2_FP\PF\ProyectoFinalWeb-main\obj\Debug\net9.0\ref\ProyectoWebFinal.dll
+C:\Users\PC\Documents\trabajo_estudio_Moriel\4to_anio\segundoSemetre\POW2_FP\PF\ProyectoFinalWeb-main\obj\Debug\net9.0\ProyectoWebFinal.sourcelink.json

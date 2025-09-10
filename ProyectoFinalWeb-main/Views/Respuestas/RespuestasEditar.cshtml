@@ -59,6 +59,14 @@ else
                     <td>@r.Xvii</td>
                     <td>
                         <a asp-controller="Encuesta" asp-action="ActualizarEncuesta" asp-route-numero="@r.Numero">Editar</a>
+                        
+                        <form asp-action="ConfirmarEliminar" method="post" style="display:inline">
+                        <input type="hidden" name="numero" value="@r.Numero" />
+                        <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('¿Eliminar la encuesta de @r.Nombre @r.Apellido (#@r.Numero)?');">
+                            Eliminar
+                        </button>
+                        </form>
                     </td>
                 </tr>
             }

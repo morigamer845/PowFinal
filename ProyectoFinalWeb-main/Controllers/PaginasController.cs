@@ -15,8 +15,8 @@ namespace ProyectoWebFinal.Controllers
         public PaginasController()
         {
         }
-
-       [AuthorizeSession(1)] // Solo Admin
+  
+        [AuthorizeSession(1)] // Solo Admin
     public IActionResult Admin()
     {
         return View();
