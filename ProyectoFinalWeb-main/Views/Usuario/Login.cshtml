@@ -1,0 +1,114 @@
+@model ProyectoWebFinal.Models.Usuario
+
+<!-- Fondo completo con difuminado -->
+<div class="background-image"></div>
+<div class="overlay"></div>
+
+<!-- Contenedor centrado con efecto glass -->
+<div class="login-container">
+    <div class="login-card text-center">
+        <h3 class="mb-4">Iniciar sesión</h3>
+
+        <form asp-controller="Usuario" asp-action="Login" method="post">
+            <div class="form-group mb-3">
+                <input asp-for="login" class="form-control glass-input" placeholder="Usuario" />
+                <span asp-validation-for="login" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <input asp-for="clave" class="form-control glass-input" type="password" placeholder="Clave" />
+                <span asp-validation-for="clave" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn glass-button btn-primary w-100">Ingresar</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    /* Fondo de pantalla completa */
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/UNAN.png") no-repeat center center;
+        background-size: cover;
+        z-index: -2;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(6px);
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: -1;
+    }
+
+    /* Contenedor centrado */
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        z-index: 1;
+    }
+
+    /* Tarjeta con efecto glass */
+    .login-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(12px);
+        border-radius: 16px;
+        padding: 2rem;
+        width: 100%;
+        max-width: 400px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        border: 1px solid rgba(255,255,255,0.2);
+        color: white;
+    }
+
+    /* Inputs con textura */
+    .glass-input {
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: 8px;
+        padding: 0.75rem;
+        color: white;
+        backdrop-filter: blur(4px);
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+    }
+
+        .glass-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+    /* Botón con efecto glass */
+    .glass-button {
+        backdrop-filter: blur(6px);
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+    }
+
+        .glass-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+        }
+
+</style>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

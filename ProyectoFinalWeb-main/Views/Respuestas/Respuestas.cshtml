@@ -1,0 +1,100 @@
+@model List<ProyectoWebFinal.DTOs.RespuestaDTO>
+
+<h3>Respuestas</h3>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>No hay respuestas.</p>
+}
+else
+{
+    <div class="table-responsive-wrapper">
+        <table class="table table-striped fixed-section-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Sexo</th>
+                    <th>Identidad</th>
+                    <th>Departamento</th>
+                    <th>Ciudad</th>
+                    <th>Facultad</th>
+                    <th>Carrera</th>
+                    <th>Matricula</th>
+                    <th>Becado</th>
+                    <!-- Sección desplazable -->
+                    <th class="scrollable">XII</th>
+                    <th class="scrollable">XIII</th>
+                    <th class="scrollable">XIV</th>
+                    <th class="scrollable">XV</th>
+                    <th class="scrollable">XVI</th>
+                    <th class="scrollable">XVII</th>
+                    <th class="scrollable">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.Numero</td>
+                        <td>@r.Nombre</td>
+                        <td>@r.Apellido</td>
+                        <td>@r.Sexo</td>
+                        <td>@r.Identidad</td>
+                        <td>@r.Departamento</td>
+                        <td>@r.Ciudad</td>
+                        <td>@r.Facultad</td>
+                        <td>@r.Carrera</td>
+                        <td>@r.Matricula</td>
+                        <td>@r.Becado</td>
+                        <!-- Sección desplazable -->
+                        <td class="scrollable">@r.Xii</td>
+                        <td class="scrollable">@r.Xiii</td>
+                        <td class="scrollable">@r.Xiv</td>
+                        <td class="scrollable">@r.Xv</td>
+                        <td class="scrollable">@r.Xvi</td>
+                        <td class="scrollable">@r.Xvii</td>
+                        <td class="scrollable">
+                        <td>
+                            <form asp-action="ConfirmarEliminar" method="post" style="display:inline">
+                                <input type="hidden" name="numero" value="@r.Numero" />
+                                <button type="submit" class="btn btn-sm btn-danger"
+                                        onclick="return confirm('¿Eliminar la encuesta de @r.Nombre @r.Apellido (#@r.Numero)?');">
+                                    Eliminar
+                                </button>
+                            </form>
+                        </td>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+<style>
+
+    .table-responsive-wrapper {
+        overflow-x: auto;
+        max-width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .fixed-section-table {
+        min-width: 1200px; /* fuerza el scroll horizontal si hay muchas columnas */
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .fixed-section-table th,
+        .fixed-section-table td {
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+
+    .scrollable {
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(2px);
+    }
+
+</style>

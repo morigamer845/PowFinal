@@ -1,0 +1,330 @@
+[
+  {
+    "ContainingType": "ProyectoWebFinal.Controller.EncuestaApiController",
+    "Method": "GetEncuestas",
+    "RelativePath": "api/EncuestaApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProyectoWebFinal.Models.Respuesta, ProyectoWebFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controller.EncuestaApiController",
+    "Method": "PostEncuesta",
+    "RelativePath": "api/EncuestaApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "respuesta",
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controller.EncuestaApiController",
+    "Method": "GetEncuesta",
+    "RelativePath": "api/EncuestaApi/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controller.EncuestaApiController",
+    "Method": "ActualizarEncuesta",
+    "RelativePath": "api/EncuestaApi/{numero}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "respuesta",
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controller.EncuestaApiController",
+    "Method": "GetCombo",
+    "RelativePath": "api/EncuestaApi/combos/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "GetRespuestas",
+    "RelativePath": "api/RespuestasApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "Edit",
+    "RelativePath": "api/RespuestasApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "respuesta",
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "PostRespuesta",
+    "RelativePath": "api/RespuestasApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "respuesta",
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "GetRespuestas",
+    "RelativePath": "api/RespuestasApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "RespuestasEliminar",
+    "RelativePath": "api/RespuestasApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "PutRespuesta",
+    "RelativePath": "api/RespuestasApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "respuesta",
+        "Type": "ProyectoWebFinal.Models.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "ExportarExcel",
+    "RelativePath": "api/RespuestasApi/exportarexcel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "ExportarEncuestaPDF",
+    "RelativePath": "api/RespuestasApi/exportarpdf/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "ExportarTodasExcel",
+    "RelativePath": "api/RespuestasApi/exportartodosexcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.RespuestasApiController",
+    "Method": "ExportarTodasPDFFormatoIndividual",
+    "RelativePath": "api/RespuestasApi/exportartodospdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.UsuarioApiController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/UsuarioApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.UsuarioApiController",
+    "Method": "Login",
+    "RelativePath": "api/UsuarioApi/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ProyectoWebFinal.Controllers.UsuarioApiController\u002BLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoWebFinal.Controllers.UsuarioApiController",
+    "Method": "Registrar",
+    "RelativePath": "api/UsuarioApi/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoWebFinal.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

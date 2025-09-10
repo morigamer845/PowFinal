@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Página de Inicio";
+}
+
+<!-- Fondo completo con difuminado -->
+<div class="background-image"></div>
+<div class="overlay"></div>
+
+<!-- Contenido principal -->
+<div class="landing-container text-center">
+    <header class="header mt-5">
+        <h1>Bienvenido a la Aplicación de Encuestas</h1>
+        <p class="lead">Participa, opina y haz que tu voz cuente</p>
+    </header>
+
+    <section class="buttons mt-4">
+        <a class="btn glass-button btn-success mx-2" href="/Usuario/Login">
+            <i class="bi bi-box-arrow-in-right"></i> Iniciar Sesión
+        </a>
+        <a class="btn glass-button btn-primary mx-2" href="/Usuario/Registrar">
+            <i class="bi bi-person-plus"></i> Registrarse
+        </a>
+    </section>
+
+    <footer class="footer mt-5">
+        <small>© 2024 Aplicación de Encuestas — Todos los derechos reservados</small>
+    </footer>
+</div>
+
+<style>
+    /* Imagen de fondo a pantalla completa */
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/images/UNAN.png") no-repeat center center;
+        background-size: cover;
+        z-index: -2;
+    }
+
+    /* Capa difuminada encima de la imagen */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(6px);
+        background-color: rgba(0, 0, 0, 0.2); /* puedes ajustar la opacidad */
+        z-index: -1;
+    }
+
+    /* Contenedor sin fondo oscuro */
+    .landing-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent !important;
+        padding: 2rem;
+        z-index: 1;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 6px white;
+    }
+
+    .header .lead {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        text-shadow: 1px 1px 4px white;
+    }
+
+    .glass-button {
+        backdrop-filter: blur(8px);
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+    }
+
+        .glass-button:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+        }
+
+    .footer {
+        font-size: 0.9rem;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+</style>

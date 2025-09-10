@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\respuestas\\respuestas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\respuestas\\respuestas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\respuestas\\respuestaseliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\respuestas\\respuestaseliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\paginas\\profesor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\paginas\\profesor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\paginas\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\paginas\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\usuario\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\pc\\documents\\trabajo_estudio_moriel\\4to_anio\\segundosemetre\\pow2_fp\\pf\\proyectofinalweb-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RespuestasEliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasEliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Respuestas\\RespuestasEliminar.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasEliminar.cshtml",
+              "RelativeToolTip": "Views\\Respuestas\\RespuestasEliminar.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T04:31:26.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Respuestas.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Respuestas\\Respuestas.cshtml",
+              "RelativeDocumentMoniker": "Views\\Respuestas\\Respuestas.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Respuestas\\Respuestas.cshtml",
+              "RelativeToolTip": "Views\\Respuestas\\Respuestas.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T04:26:12.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T04:26:05.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Paginas\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginas\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Paginas\\Admin.cshtml",
+              "RelativeToolTip": "Views\\Paginas\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T04:23:38.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profesor.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Paginas\\Profesor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Paginas\\Profesor.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Paginas\\Profesor.cshtml",
+              "RelativeToolTip": "Views\\Paginas\\Profesor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T04:21:11.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T02:33:48.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Registrar.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Usuario\\Registrar.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Registrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T02:33:01.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T02:19:28.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T02:33:05.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
