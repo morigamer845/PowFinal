@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "ClosedXML/0.105.0": {
@@ -7393,23 +7393,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Users\\morie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
+      "projectUniqueName": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
       "projectName": "ProyectoWebFinal",
-      "projectPath": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\trabajo_estudio_Moriel\\4to_anio\\segundoSemetre\\POW2_FP\\PF\\ProyectoFinalWeb-main\\obj\\",
+      "projectPath": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
+      "packagesPath": "C:\\Users\\morie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7418,10 +7418,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -7436,10 +7438,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "ClosedXML": {
@@ -7500,7 +7503,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

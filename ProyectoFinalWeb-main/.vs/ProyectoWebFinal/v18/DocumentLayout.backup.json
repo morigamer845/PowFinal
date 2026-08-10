@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\proyectowebfinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:proyectowebfinal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\views\\respuestas\\respuestaseditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\respuestas\\respuestaseditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\views\\respuestas\\respuestas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\respuestas\\respuestas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\views\\respuestas\\respuestasexportar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:views\\respuestas\\respuestasexportar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\controllers\\respuestascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:controllers\\respuestascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|c:\\users\\morie\\documents\\github\\powfinal\\proyectofinalweb-main\\controllers\\respuestasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC078901-37BF-EF87-BB24-EBC4E70922DB}|ProyectoWebFinal.csproj|solutionrelative:controllers\\respuestasapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Respuestas.cshtml",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\Respuestas.cshtml",
+              "RelativeDocumentMoniker": "Views\\Respuestas\\Respuestas.cshtml",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\Respuestas.cshtml",
+              "RelativeToolTip": "Views\\Respuestas\\Respuestas.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-10T00:34:27.205Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProyectoWebFinal",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
+              "RelativeDocumentMoniker": "ProyectoWebFinal.csproj",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\ProyectoWebFinal.csproj",
+              "RelativeToolTip": "ProyectoWebFinal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-10T00:39:31.247Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RespuestasEditar.cshtml",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasEditar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Respuestas\\RespuestasEditar.cshtml",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasEditar.cshtml",
+              "RelativeToolTip": "Views\\Respuestas\\RespuestasEditar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-10T00:46:41.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RespuestasExportar.cshtml",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasExportar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Respuestas\\RespuestasExportar.cshtml",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Views\\Respuestas\\RespuestasExportar.cshtml",
+              "RelativeToolTip": "Views\\Respuestas\\RespuestasExportar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-10T00:46:39.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwCgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T00:26:59.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RespuestasController.cs",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Controllers\\RespuestasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RespuestasController.cs",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Controllers\\RespuestasController.cs",
+              "RelativeToolTip": "Controllers\\RespuestasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T00:24:41.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RespuestasApiController.cs",
+              "DocumentMoniker": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Controllers\\RespuestasApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RespuestasApiController.cs",
+              "ToolTip": "C:\\Users\\morie\\Documents\\GitHub\\PowFinal\\ProyectoFinalWeb-main\\Controllers\\RespuestasApiController.cs",
+              "RelativeToolTip": "Controllers\\RespuestasApiController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T00:07:47.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

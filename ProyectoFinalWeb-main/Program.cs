@@ -40,7 +40,12 @@ builder.Services.AddDbContext<ApplicationDbContextEncuesta>(options =>
 {
     options.UseMySql(
         builder.Configuration.GetConnectionString("EncuestaConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("EncuestaConnection"))
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("EncuestaConnection")),
+        mySqlOptions =>
+        {
+            // ✅ Aumenta el tiempo de espera a 120 segundos (2 minutos)
+            mySqlOptions.CommandTimeout(120);
+        }
     );
 });
 

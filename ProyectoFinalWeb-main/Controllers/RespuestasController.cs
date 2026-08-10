@@ -4,14 +4,13 @@ using ProyectoWebFinal.Models;
 using System.Net.Http;
 using System.Text.Json;
 using System.Text;
-using System.Net.Http;
 using ProyectoWebFinal.DTOs;
 
 namespace ProyectoWebFinal.Controllers
 {
     public class RespuestasController : Microsoft.AspNetCore.Mvc.Controller
     {
- private readonly HttpClient _httpClient;
+        private readonly HttpClient _httpClient;
 
         public RespuestasController(IHttpClientFactory httpClientFactory)
         {
@@ -20,18 +19,23 @@ namespace ProyectoWebFinal.Controllers
         }
 
         // ==========================================
-        // 1️⃣ Página principal: Listar todas las respuestas
+        // 1️⃣ Página principal: Listar todas las respuestas (Con Paginación)
         // ==========================================
-        public async Task<IActionResult> Respuestas()
+        public async Task<IActionResult> Respuestas(int pagina = 1)
         {
             try
             {
-                var response = await _httpClient.GetAsync("api/RespuestasApi");
+                int cantidad = 50;
+                // ✅ Petición a la API con parámetros de paginación
+                var response = await _httpClient.GetAsync($"api/RespuestasApi?pagina={pagina}&cantidad={cantidad}");
                 response.EnsureSuccessStatusCode();
 
                 var json = await response.Content.ReadAsStringAsync();
                 var respuestas = JsonSerializer.Deserialize<List<RespuestaDTO>>(json,
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+                // ✅ Enviar datos a la vista para los botones de navegación
+                ViewBag.PaginaActual = pagina;
 
                 return View(respuestas);
             }
@@ -43,17 +47,19 @@ namespace ProyectoWebFinal.Controllers
         }
 
         // ==========================================
-        // 2️⃣ Eliminar encuestas
+        // 2️⃣ Eliminar encuestas (Con Paginación)
         // ==========================================
-        public async Task<IActionResult> RespuestasEliminar()
+        public async Task<IActionResult> RespuestasEliminar(int pagina = 1)
         {
-            var response = await _httpClient.GetAsync("api/RespuestasApi");
+            int cantidad = 50;
+            var response = await _httpClient.GetAsync($"api/RespuestasApi?pagina={pagina}&cantidad={cantidad}");
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync();
             var lista = JsonSerializer.Deserialize<List<RespuestaDTO>>(json,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
+            ViewBag.PaginaActual = pagina;
             return View(lista);
         }
 
@@ -69,17 +75,19 @@ namespace ProyectoWebFinal.Controllers
         }
 
         // ==========================================
-        // 3️⃣ Editar encuestas
+        // 3️⃣ Editar encuestas (Con Paginación)
         // ==========================================
-        public async Task<IActionResult> RespuestasEditar()
+        public async Task<IActionResult> RespuestasEditar(int pagina = 1)
         {
-            var response = await _httpClient.GetAsync("api/RespuestasApi");
+            int cantidad = 50;
+            var response = await _httpClient.GetAsync($"api/RespuestasApi?pagina={pagina}&cantidad={cantidad}");
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync();
             var lista = JsonSerializer.Deserialize<List<RespuestaDTO>>(json,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
+            ViewBag.PaginaActual = pagina;
             return View(lista);
         }
 
@@ -98,19 +106,21 @@ namespace ProyectoWebFinal.Controllers
         }
 
         // ==========================================
-        // 4️⃣ Exportación
+        // 4️⃣ Exportación (Vista con Paginación)
         // ==========================================
-        public async Task<IActionResult> RespuestasExportar()
+        public async Task<IActionResult> RespuestasExportar(int pagina = 1)
         {
             try
             {
-                var response = await _httpClient.GetAsync("api/RespuestasApi");
+                int cantidad = 50;
+                var response = await _httpClient.GetAsync($"api/RespuestasApi?pagina={pagina}&cantidad={cantidad}");
                 response.EnsureSuccessStatusCode();
 
                 var json = await response.Content.ReadAsStringAsync();
                 var respuestasExportar = JsonSerializer.Deserialize<List<RespuestaDTO>>(json,
                     new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
+                ViewBag.PaginaActual = pagina;
                 return View(respuestasExportar);
             }
             catch (Exception ex)
@@ -120,6 +130,9 @@ namespace ProyectoWebFinal.Controllers
             }
         }
 
+        // ==========================================
+        // 5️⃣ Métodos de Descarga Directa (Sin Paginación)
+        // ==========================================
         public async Task<IActionResult> ExportarPDF(int id)
         {
             var response = await _httpClient.GetAsync($"api/RespuestasApi/exportarpdf/{id}");
@@ -148,6 +161,8 @@ namespace ProyectoWebFinal.Controllers
                         $"Encuesta_{id}.xlsx");
         }
 
+        // Nota: Estos dos métodos son los que se beneficiarán del aumento de Timeout a 120s 
+        // en Program.cs, ya que intentarán descargar TODA la base de datos a la vez.
         public async Task<IActionResult> ExportarTodasPDF()
         {
             var response = await _httpClient.GetAsync("api/RespuestasApi/exportartodospdf");

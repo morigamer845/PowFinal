@@ -31,22 +31,12 @@ namespace ProyectoWebFinal.Controllers
 
         // GET: api/Respuestas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<object>>> GetRespuestas()
+        // Se agregan los parámetros pageNumber y pageSize para la paginación
+        public async Task<ActionResult<IEnumerable<object>>> GetRespuestas(int pageNumber = 1, int pageSize = 50)
         {
             var respuestas = await _context.respuestas
-                .Include(r => r.Sexo)
-                .Include(r => r.Departamento)
-                .Include(r => r.Ciudad)
-                .Include(r => r.Facultad)
-                .Include(r => r.Carrera)
-                .Include(r => r.Matricula)
-                .Include(r => r.Becado)
-                .Include(r => r.Xii)
-                .Include(r => r.Xiii)
-                .Include(r => r.Xiv)
-                .Include(r => r.Xv)
-                .Include(r => r.Xvi)
-                .Include(r => r.Xvii)
+                .AsSplitQuery() // Opcional: Divide la consulta SQL masiva en fragmentos más pequeños
+                                // ❌ Se eliminaron todos los .Include() redundantes
                 .Select(r => new
                 {
                     r.Numero,
@@ -68,6 +58,9 @@ namespace ProyectoWebFinal.Controllers
                     Xvi = r.Xvi != null ? r.Xvi.Valor : null,
                     Xvii = r.Xvii != null ? r.Xvii.Valor : null
                 })
+                // ✅ La paginación agrega un "LIMIT" al SQL, reduciendo el tiempo a milisegundos
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
 
             return Ok(respuestas);
